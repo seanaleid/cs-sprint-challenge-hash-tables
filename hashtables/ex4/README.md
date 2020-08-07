@@ -27,3 +27,11 @@ Solve this problem with a hash table.
 Limits:
 
 * The input list can contain approximately 5,000,000 elements.
+
+* U --> Find the positive numbers that have negative numbers in the list. Order doesn't matter.
+* P --> 
+    # 1. Put whole list in a dict
+    # 2. Loop over the list
+        # 2.1 Check if num is positive and if negative num in dict
+        # 2.2 If yes, append to list 
+    # 3. Return list
