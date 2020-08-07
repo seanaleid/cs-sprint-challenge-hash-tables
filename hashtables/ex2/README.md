@@ -62,3 +62,41 @@ function will always be handed a valid ticket chain as input.
   the destination is the value. Then, when constructing the entire
   route, the `i`th location in the route can be found by checking the
   hash table for the `i-1`th location.
+
+* U --> Want a list of destinations only. 
+* P --> 
+    XXXXXXXXXXXXXX SECOND ATTEMPT XXXXXXXXXXXXXXXXXXXXXXXX
+    # initialize route list
+    # initialize dict
+    # 1. Store tickets in a dict
+        # Loop over ticket in tickets
+        # print(ticket.source, ticket.destination)
+        # Key: Source, Value: Destination
+    # 2. Initialize stop variable
+    # 3. Pick a start point of destination 'NONE'
+        # Looks like the start point in the tests has 'NONE' as the source. Only one 'NONE' as source (start point) and one 'NONE' as destination (stop point)
+    # 4. While loop, like Markov example from lecture. 
+    # While not stopped
+        # if the len(route) is matches the length variable
+            # change stop variable to true
+        # check if destination is in route list
+            # Yes, change start point to next variable
+            # No, append destination to route list
+    # 5. Return the route list
+
+    XXXXXXXXXXXXXX FIRST ATTEMPT XXXXXXXXXXXXXXXXXXXXXXXX
+    # initialize route list
+    # initialize dict
+    # 1. Store tickets in a dict
+        # Loop over ticket in tickets
+            # Key: Source, Value: Destination
+    # 2. Pick start point and stop point
+        # Looks like the start point in the tests has 'NONE' as the source. Only one 'NONE' as source (start point) and one 'NONE' as destination (stop point)
+    # 3. Use a while loop like the Markov chain form lecture
+        # While destination is not 'NONE' move to the next ticket and append the destination to the route list
+    # 4. When destination is 'NONE' stop
+    # 5. Return the route list
+* E --> ✅
+* R --> Could this pattern be used for the file names problem? 
+
+ 
