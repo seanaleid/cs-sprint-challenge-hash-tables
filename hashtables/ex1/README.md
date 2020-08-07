@@ -49,10 +49,6 @@ output: [ 3, 1 ]  # since these are the indices of weights 15 and 6 whose sum eq
         # check if in dict
         # create tuple
         # return tuple
-* E -->
-* R -->
+* E --> ✅
+* R --> Dicts don't like double values, [4,4] was rough. Can play around with () 
 
-* U --> 
-* P --> 
-* E -->
-* R -->

@@ -28,6 +28,7 @@ def reconstruct_trip(tickets, length):
 
     # 4. While loop, like Markov example from lecture. 
     # While not stopped
+    while flight is not 'NONE'
     while not destination: 
         # if the len(route) is matches the length variable
         if len(route) == length: 

@@ -27,15 +27,29 @@ class TestEx2(unittest.TestCase):
 
     def test_large(self):
         files = []
+        # to see example
+        # for i in range(50):
+        #     files.append(f"/dir{i}/file{i}")
 
+        # ORIGINAL
         for i in range(500000):
             files.append(f"/dir{i}/file{i}")
 
+        # to see example
+        # for i in range(50):
+        #     files.append(f"/dir{i}/dirb{i}/file{i}")
+
+        # ORIGINAL
         for i in range(500000):
             files.append(f"/dir{i}/dirb{i}/file{i}")
 
         queries = []
 
+        # to see example
+        # for i in range(100):
+        #     queries.append(f"nofile{i}")
+        
+        # ORIGINAL
         for i in range(1000000):
             queries.append(f"nofile{i}")
 
@@ -47,6 +61,7 @@ class TestEx2(unittest.TestCase):
         ]
 
         result = finder(files, queries)
+        print(result)
         result.sort()
 
         self.assertTrue(result == ['/dir256/dirb256/file256',
