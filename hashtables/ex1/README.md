@@ -39,3 +39,4 @@ output: [ 3, 1 ]  # since these are the indices of weights 15 and 6 whose sum eq
   to see if the hash table contains an entry for `limit - weight`. If it
   does, then we've found the two items whose weights sum up to the
   `limit`!
+

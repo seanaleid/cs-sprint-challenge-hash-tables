@@ -35,3 +35,6 @@ Limits:
         # 2.1 Check if num is positive and if negative num in dict
         # 2.2 If yes, append to list 
     # 3. Return list
+* E --> ✅
+* R --> Can use dict(zip(keys, values)) or dict.fromkeys(array) --> both ran at the same speed
+    # CHECK THE TEST BEFORE PRINTING!! 
