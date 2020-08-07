@@ -1,9 +1,26 @@
 def intersection(arrays):
-    """
-    YOUR CODE HERE
-    """
-    # Your code here
+    # initialize result list
+    result = []
+    # initialize dict
+    d = dict()
 
+    # 1. Loop over array in arrays
+    for array in arrays:
+        # Loop over num in array
+        for num in array:
+            # Check if num is in the dict
+            if num in d:
+                # check if in the result array
+                if num in result:
+                    pass
+                # Yes, append to result list
+                else:
+                    result.append(num)
+            else:
+                # No, add to dict
+                d[num] = num
+    
+    # 2. Return result list
     return result
 
 

@@ -32,3 +32,17 @@ Limits:
 
 * There can be up to 10 lists in the list of lists.
 * The lists can contain up to roughly 1,000,000 elements each.
+
+* U --> Return only the numbers that can be found in all lists. Order doesn't matter
+* P --> 
+    # 1. Loop over array in arrays
+        # Loop over num in array
+            # Check if num is in the dict
+                # Yes
+                    # Check if in the result array, to prevent multiples of the same num in the result
+                        # Yes, then pass
+                        # No, append to result list
+                # No, add to dict
+    # 2. Return result list
+* E --> ✅
+* R --> For this problem and test, only looking for 1 instance of the repeated number, not duplicates, need to check if num already in teh result. Is this the fastest/most optimized way? Maybe?

@@ -36,3 +36,14 @@ Limits:
 
 * Up to approximately 1,000,000 paths.
 * Up to approximately 1,000,000 queries.
+
+* U --> Want a list of full file names that match the query file.
+* P --> 
+    # initialize result list
+    # initialize dict
+    # 1. Add all filenames as keys and values in a dict
+    # 2. Loop through file name values and see if the query is in the dict
+        # Yes, append to result list
+    # 3. Return result list
+* E -->
+* R -->
