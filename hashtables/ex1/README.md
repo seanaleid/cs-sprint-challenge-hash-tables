@@ -40,3 +40,19 @@ output: [ 3, 1 ]  # since these are the indices of weights 15 and 6 whose sum eq
   does, then we've found the two items whose weights sum up to the
   `limit`!
 
+* U --> Want the indices, as a tuple of the weights that add up to the limit. Ordered largest to smallest
+* P -->
+    # initialize dict
+    # 1. Put weights into dict, using weight value as key and list index as value
+    # 2. Check for edge cases
+    # 3. Loop over weights and subtract limit
+        # check if in dict
+        # create tuple
+        # return tuple
+* E -->
+* R -->
+
+* U --> 
+* P --> 
+* E -->
+* R -->

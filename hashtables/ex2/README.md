@@ -99,4 +99,3 @@ function will always be handed a valid ticket chain as input.
 * E --> ✅
 * R --> Could this pattern be used for the file names problem? 
 
- 
